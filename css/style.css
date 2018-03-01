@@ -1,8 +1,6 @@
 /*General*/
 
-body {
-	text-align: center;
-}
+
 #nav-bar{
 	text-decoration: none;
 	height: 30px;
@@ -27,4 +25,22 @@ nav ul{
 li {
   display: inline;
   padding: 0 1em;
+}
+.location{
+
+}
+.list_right,.bottom_right {
+	position: fixed;
+	right: 0;
+	text-align: right;
+}
+.list_left {
+	text-align: left;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 10px;
+	background-color: #F2F2F2;
+	width: 100%;
 }
