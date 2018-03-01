@@ -1,0 +1,30 @@
+/*General*/
+
+body {
+	text-align: center;
+}
+#nav-bar{
+	text-decoration: none;
+	height: 30px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+#image {
+	text-decoration: none;
+	text-align: center;
+	height: 70px;
+	width: 50%;
+}
+.top_links,.bottom_links {
+	list-style: none;
+	display: inline;
+}
+nav ul{
+	display: inline;
+}
+
+li {
+  display: inline;
+  padding: 0 1em;
+}
