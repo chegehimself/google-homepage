@@ -44,7 +44,6 @@ footer {
 	bottom: 0;
 	padding-bottom: 10px;
 	width: 100%;
-	padding-left: 0;
 	text-align: left;
 }
 
@@ -67,7 +66,6 @@ width:400px;
 	margin-right: 10px;
 }
 .bottom-left {
-	padding-left: 0;
 	text-align: left;
 	position: fixed;
 }
@@ -77,6 +75,9 @@ width:400px;
 }
 .sign-button {
 	color: #FFFFFF;
+}
+.bottom-links {
+	margin-left: 25px;
 }
 /*color*/
 footer {
@@ -92,7 +93,8 @@ footer, #nav-bar {
 	font-color:#666666;
 }
 .location {
-	font-color: #71B5DB;
+	font-color: rgba(0, 0, 0, 0.54);
+	font-weight: 400;
 }
 /*typography*/
 #nav-bar, footer{
