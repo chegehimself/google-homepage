@@ -26,9 +26,13 @@ nav ul{
 li {
   display: inline;
   padding: 0 1em;
+  text-decoration: none;
+}
+nav a {
+	color: #434343;
 }
 .location{
-
+	text-align: left;
 }
 .list_right,.bottom_right {
 	position: fixed;
@@ -60,6 +64,9 @@ form {
 width:400px;
 }
 
+#top_button {
+	margin-right: 10px;
+}
 /*color*/
 footer {
 	background-color: #F2F2F2;
