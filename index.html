@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,16 +26,19 @@
 		</ul>
 	</nav>
 	</div>
-	<div id="image">
+	<section id="image">
+	<div class="container">
 	<img src="images/googlelogo_color_272x92dp.png">
 	</div>
-	<div id="search-input">
-		<input type="text" name="search-input">
-	</div>
-	<div id="buttons">
-		<button>Google Search</button>
-		<button>I'm Feeling Lucky</button>
-	</div>
+	<section id="google-form">
+	<form style="text-align:center;">
+  <div>
+    <input style="" type="text" class="form-control" id="search-box">
+    <button style="padding-top: 20px;" type="submit" class="btn btn-light">Google Search</button>
+    <button style="padding-top: 20px;" type="submit" class="btn btn-light">I'm Feeling Lucky</button>
+  </div>
+</form>
+</section>
 	<footer>
 		<div class="location">
 			<p>United Kingdom</p>

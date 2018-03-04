@@ -12,7 +12,8 @@
 	text-decoration: none;
 	text-align: center;
 	height: 70px;
-	width: 50%;
+	width: 100%;
+	padding-top: 150px;
 }
 .top_links,.bottom_links {
 	list-style: none;
@@ -43,4 +44,19 @@ footer {
 	padding-bottom: 10px;
 	background-color: #F2F2F2;
 	width: 100%;
+}
+
+.search-input {
+	text-align: center;
+	padding-top: 30px;
+	width: 300px;
+}
+.form-group,.form-control {
+	width: 70%;
+	text-align: center;
+}
+form {
+	padding-top: 20px;
+	margin: 0 auto; 
+width:400px;
 }
