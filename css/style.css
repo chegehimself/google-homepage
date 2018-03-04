@@ -75,11 +75,28 @@ width:400px;
 	padding-top: 5px;
 	margin-left: 25px;
 }
-
+.sign-button {
+	color: #FFFFFF;
+}
 /*color*/
 footer {
 	background-color: #F2F2F2;
 }
 nav a {
 	color: #434343;
+}
+footer, #nav-bar {
+	font-color: #F2F2C6;
+}
+.bottom_links {
+	font-color:#666666;
+}
+.location {
+	font-color: #71B5DB;
+}
+/*typography*/
+#nav-bar, footer{
+	font-family: arial;
+	font-weight: 400;
+	font-size: 13px;
 }
