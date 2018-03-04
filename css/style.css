@@ -65,8 +65,9 @@ width:400px;
 #top_button {
 	margin-right: 10px;
 }
-.bottom-left {
+footer .bottom-left {
 	text-align: left;
+	margin-left: 25px;
 	position: fixed;
 }
 .location {
